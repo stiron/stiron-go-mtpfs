@@ -1,7 +1,11 @@
 go-mtpfs Puppet module
 ======================
 
-This is a repository for the go-mtpfs Puppet module
+This module will install the go-mtpfs package on Ubuntu Linux to enable the usage of Android based devices.
+
+#Distros
+
+* Ubuntu 12.04 =<
 
 #Dependencies
 
