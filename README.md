@@ -1,7 +1,7 @@
 go-mtpfs Puppet module
 ======================
 
-This module will install the go-mtpfs package on Ubuntu Linux to enable the usage of Android based devices.
+This module installs the go-mtpfs package on Ubuntu Linux to enable the usage of Android devices. An additional PPA should be enabled to install it as a package.
 
 #Distros
 
