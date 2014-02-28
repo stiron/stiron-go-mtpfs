@@ -1,5 +1,10 @@
 class go-mtpfs {
-  package { 'go-mtpfs':
-    ensure => installed
+  if $operatingsystem == 'Ubuntu' {
+    package { 'go-mtpfs':
+      ensure => installed
+    }
+  } 
+  else {
+    notice("This module is supported only on Ubuntu!")
   }
 }
